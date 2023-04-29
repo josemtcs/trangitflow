@@ -1,5 +1,5 @@
 import express from 'express';
-import personaRouter from './routes/persona.router';
+import PersonaRouter from './routes/persona.router';
 const app= express();
 const port = 3000;
 
