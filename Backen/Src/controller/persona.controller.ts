@@ -1,9 +1,12 @@
 import {persona} from "../model/persona1"
 
-export const GetPersonas = (): persona[]=> {
-    let P: persona[]=[];
-    P.push({ id: 1, nombre: "JOSE"});
-    P.push({ id: 2, nombre: "YO"});
+import  * as DaoPersona from "../DAO/persona.dao"
 
-    return P;
+export const GetPersonas = async (): Promise<persona[]>=> {
+    try {
+        let p: persona[]= await DaoPersona.ListaPersonas();
+        return p;
+    } catch (error){
+        throw error;
+    }
 }
