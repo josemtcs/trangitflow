@@ -1,11 +1,11 @@
 import GetConnection from "../Conexion/Conexion";
-import { persona } from "../model/persona1";
+import { ANIMAL } from "../model/ANIMAL";
 
-export const ListaPersonas = async(): Promise<persona[]> => {
+export const ListaPersonas = async(): Promise<ANIMAL[]> => {
     try{
-        let sql= "SELECT * FROM Persona;";
+        let sql= "SELECT * FROM ANIMAL;";
         const pool =await GetConnection();
-        let rs =await pool.query <persona>(sql);
+        let rs =await pool.query <ANIMAL>(sql);
 
         if(rs!=undefined){
             return rs.recordset;

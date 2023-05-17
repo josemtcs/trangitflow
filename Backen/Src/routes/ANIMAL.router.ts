@@ -1,10 +1,10 @@
 import  express  from "express";
-import * as controller from '../controller/persona.controller';
+import * as controller from '../controller/ANIMAL';
 
 const router =express.Router();
 
 router.get('/',(_, res)=>{
-  controller.GetPersonas()
+  controller.GetANIMAL()
   .then((obj)=>{
     res.json(obj);
   })
