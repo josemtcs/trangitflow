@@ -1,5 +1,5 @@
 import GetConnection from "../Conexion/Conexion";
-import { ANIMAL } from "../model/ANIMAL";
+import { ANIMAL } from "../MODEL/ANIMAL";
 
 
 export const ListaAnimales = async(): Promise<ANIMAL[]> => {

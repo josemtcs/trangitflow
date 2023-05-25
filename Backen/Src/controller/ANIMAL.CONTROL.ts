@@ -1,6 +1,6 @@
-import {ANIMAL} from "../model/ANIMAL"
+import {ANIMAL} from "../MODEL/ANIMAL"
 
-import  * as DaoAnimales from "../DAO/ANIMALES.DAO"
+import  * as DaoAnimales from "../DAO/ANIMALES.dao"
 
 export const GetANIMAL = async (): Promise<ANIMAL[]>=> {
     try {

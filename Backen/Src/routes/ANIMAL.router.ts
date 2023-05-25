@@ -1,5 +1,5 @@
 import  express  from "express";
-import * as controller from '../controller/ANIMAL.CONTROL';
+import * as controller from '../controller/ANIMAL.control';
 
 const router =express.Router();
 
