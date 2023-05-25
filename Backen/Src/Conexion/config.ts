@@ -1,12 +1,12 @@
 export const sqlConfig= {
     user: 'sa',
-    password: 'SPONGA123',
+    password: '1234',
     database: 'AnimalExotic',
     server: 'localhost',
     pool: {
       max: 10,
       min: 0,
-      idleTimeoutMillis: 30000
+      idleTimeoutMillis: 3000
     },
     options: {
       encrypt: true, // for azure

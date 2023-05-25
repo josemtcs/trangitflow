@@ -1,7 +1,8 @@
 import GetConnection from "../Conexion/Conexion";
 import { ANIMAL } from "../model/ANIMAL";
 
-export const ListaPersonas = async(): Promise<ANIMAL[]> => {
+
+export const ListaAnimales = async(): Promise<ANIMAL[]> => {
     try{
         let sql= "SELECT * FROM ANIMAL;";
         const pool =await GetConnection();
