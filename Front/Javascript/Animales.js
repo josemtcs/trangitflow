@@ -26,7 +26,12 @@ function CargarAnimales() {
         rs.forEach(p => {
             tbl.append(`<tr>
             <td>${p.NOMBRE_ANIMAL}</td>
-            <td>${p.title}</td>
+            <td>${p.EDAD}</td>
+            <td>${p.PRECIO}</td>
+            <td>${p.COLOR}</td>
+            <td>${p.TIPO_ALIMENTACION}</td>
+            <td>${p.TAMAÑO}</td>
+            <td>${p.TIPO_TERRENO}</td>
             <td></td>
             </tr>`);
         });

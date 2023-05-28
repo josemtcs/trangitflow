@@ -1,0 +1,21 @@
+#menu{
+    background-color: rgba(113, 214, 73, 0.979) !important;
+    border: 4px solid rgb(48, 180, 8);
+    color: antiquewhite ;
+}
+
+body
+{
+    background-color: #C07C14 !important;
+}
+
+.seccion9{
+    font-size: 25px;
+    color: antiquewhite;
+}
+
+.seccion10{
+    font-size: 17px;
+    color: antiquewhite;
+    border: 4px solid rgb(48, 180, 8);
+}
